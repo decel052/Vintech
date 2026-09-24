@@ -2,20 +2,13 @@
 <html lang="az">
 <head>
 <meta charset="utf-8">
-<title>VINTECH — Rəqəmsal xatirələr · 2000-lərin rəqəmsal kamera kolleksiyası</title>
+<title>VINTECH — Digital Memories · 2000s Digital Camera Collection</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" id="metaDescription" content="VINTECH — 2000-ci illərin rəqəmsal kameraları. Sony Cyber-shot, Canon IXUS və PowerShot, Samsung, Nikon, Fujifilm. Model, marka və qiymətə görə axtar, birbaşa sifariş et.">
-<meta name="author" content="VINTECH">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="description" content="VINTECH — 2000-ci illərin rəqəmsal kameraları. Sony Cyber-shot, Canon IXUS və PowerShot, Samsung, Nikon, Fujifilm. Model, marka və qiymətə görə axtar, birbaşa sifariş et.">
 <meta name="theme-color" content="#0A0A0A">
-<meta property="og:title" id="ogTitle" content="VINTECH — Rəqəmsal xatirələr · 2000-lərin rəqəmsal kamera kolleksiyası">
-<meta property="og:description" id="ogDescription" content="2000-lərin rəqəmsal kamera kolleksiyası. Seçilmiş kameralar, AZN qiymətləri, birbaşa sifariş.">
-<meta property="og:site_name" content="VINTECH">
-<meta property="og:locale" id="ogLocale" content="az_AZ">
-<meta name="twitter:card" content="summary">
-<meta property="og:url" id="ogUrl" content="./">
+<meta property="og:title" content="VINTECH — Digital Memories">
+<meta property="og:description" content="2000s Digital Camera Collection. Seçilmiş rəqəmsal kameralar, AZN qiymətləri, birbaşa sifariş.">
 <meta property="og:type" content="website">
-<link rel="canonical" id="canonicalUrl" href="./">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230A0A0A'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%23FFFFFF' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%239B1C26'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,21 +43,16 @@
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;color-scheme:light;background:var(--paper)}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
-body{margin:0;color:var(--ink);background:var(--paper);font:400 15px/1.55 var(--f);overflow-x:hidden;overflow-x:clip;
+body{margin:0;color:var(--ink);background:var(--paper);font:400 15px/1.55 var(--f);overflow-x:clip;
   -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
   padding-bottom:calc(var(--dockh) + env(safe-area-inset-bottom,0px))}
-img{display:block;max-width:100%;color:var(--grey)}
-.lcd.image-failed{display:grid;place-items:center;background:#101010}
-.lcd img.is-broken{visibility:hidden}
-.img-fallback{position:absolute;inset:0;z-index:5;display:grid;place-items:center;padding:18px;text-align:center;font:600 10px/1.4 var(--f);letter-spacing:.14em;text-transform:uppercase;color:var(--grey)}
+img{display:block;max-width:100%}
 button,input,select{font:inherit;color:inherit}
 button{cursor:pointer}
 a{color:inherit}
 ::selection{background:var(--red);color:#fff}
 :focus-visible{outline:2px solid var(--rt);outline-offset:3px}
 .sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
-.skip-link{position:fixed;left:var(--pad);top:10px;z-index:200;display:inline-flex;align-items:center;min-height:44px;padding:0 16px;color:#fff;background:var(--red);font:700 11px/1 var(--f);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transform:translateY(-160%);transition:transform .18s ease}
-.skip-link:focus{transform:none}
 [hidden]{display:none!important}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--pad)}
 .ico{width:1em;height:1em;flex:none;display:inline-block;vertical-align:-.12em}
@@ -92,8 +80,6 @@ a{color:inherit}
 .btn--ghost{color:var(--ink);background:transparent;border-color:var(--ink)}
 .btn--ghost:hover{color:var(--paper);background:var(--ink)}
 .btn[disabled]{opacity:.4;cursor:not-allowed}
-.btn:active:not([disabled]),.fbtn:active,.rail__btn:active{transform:translateY(1px)}
-.pb__nav:active{transform:translateY(calc(-50% + 1px))}
 .btn .ico{font-size:16px}
 
 .tag{display:inline-flex;align-items:center;gap:5px;padding:2px 7px;font:500 10.5px/1.5 var(--f);letter-spacing:.08em;text-transform:uppercase;
@@ -344,9 +330,8 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 .grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 10px}
 .unit{position:relative;min-width:0}
 .unit__shell{height:100%}
-.unit__in{height:100%;display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--rule);transition:border-color .2s,transform .2s cubic-bezier(.2,.7,.2,1),box-shadow .2s cubic-bezier(.2,.7,.2,1)}
+.unit__in{height:100%;display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--rule);transition:border-color .2s}
 .unit:hover .unit__in{border-color:var(--red)}
-@media (hover:hover){.unit:hover .unit__in{transform:translateY(-2px);box-shadow:0 14px 30px rgba(0,0,0,.16)}}
 .unit__link{display:flex;flex-direction:column;flex:1;text-decoration:none;color:inherit;min-width:0}
 .unit__bar{display:flex;justify-content:space-between;align-items:center;gap:6px;height:34px;padding:0 10px;font:600 10px/1 var(--f);letter-spacing:.2em;color:var(--grey);text-transform:uppercase}
 .unit__bar .ico{font-size:15px;color:var(--mute)}
@@ -357,7 +342,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 .unit__info .tags{margin-top:auto;padding-top:2px}
 .unit .price{margin-top:2px}
 .unit__fn{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--rule)}
-.unit__fn button{min-width:0;min-height:44px;padding:0 6px;border:0;background:none;color:var(--ink);font:600 10.5px/1 var(--f);letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:6px;transition:background-color .15s,color .15s}
+.unit__fn button{min-height:44px;padding:0 6px;border:0;background:none;color:var(--ink);font:600 10.5px/1 var(--f);letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:6px;transition:background-color .15s,color .15s}
 .unit__fn button+button{border-left:1px solid var(--rule);color:var(--rt)}
 .unit__fn button:hover{background:var(--ink);color:var(--paper)}
 .unit__fn button+button:hover{background:var(--red);color:#fff}
@@ -400,9 +385,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 .rail::-webkit-scrollbar{display:none}
 .rail__list{list-style:none;margin:0;padding:0;display:flex;gap:14px;width:max-content}
 .rail__list>li{flex:0 0 clamp(228px,66vw,290px);scroll-snap-align:start;display:flex}
-.rail__list>li.unit{flex:0 0 clamp(228px,66vw,290px);scroll-snap-align:start;display:flex}
 .rail__list>li>.unit{flex:1}
-.rail__list>li.unit>.unit{flex:1}
 .rail .price__now b{font-size:clamp(22px,6vw,27px)}
 .save{margin:0;font:600 10.5px/1 var(--f);letter-spacing:.14em;text-transform:uppercase;color:var(--rt)}
 .poster{flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:20px;padding:22px 20px;color:#fff;background:#0A0A0A;border:1px solid var(--rule-2);position:relative;overflow:hidden}
@@ -423,9 +406,6 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
    ========================================================= */
 .db__tools{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
 .db{border:1px solid var(--ink);background:var(--white)}
-.db td.c-meta{color:#666}
-.db .price__was{color:#666}
-.db .price__was s{text-decoration-color:#666}
 .db__bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 14px;border-bottom:1px solid var(--rule);font:600 10.5px/1 var(--f);letter-spacing:.2em;color:var(--ink);text-transform:uppercase;background:var(--paper)}
 .db__bar span:last-child{color:var(--grey)}
 .db table{width:100%;border-collapse:collapse}
@@ -437,7 +417,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 .db tr:hover::before,.db tr:focus-visible::before{background:var(--red)}
 .db td.c-brand,.db td.c-col,.db td.c-act{display:none}
 .db td.c-model{grid-area:model;font:600 15px/1.3 var(--f);color:var(--ink)}
-.db td.c-meta{grid-area:meta;font:400 12px/1.4 var(--f);color:#666;letter-spacing:.02em}
+.db td.c-meta{grid-area:meta;font:400 12px/1.4 var(--f);color:var(--mute);letter-spacing:.02em}
 .db td.c-price{grid-area:price;align-self:center;text-align:right}
 .db td.c-color,.db td.c-cond{display:none}
 .db .price{justify-content:flex-end;flex-direction:column;align-items:flex-end;gap:0}
@@ -563,10 +543,6 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 .cc__h{margin:0 0 7px;font:600 10.5px/1.4 var(--f);letter-spacing:.18em;color:var(--mute);text-transform:uppercase}
 .cc__p{margin:0;font-size:14.5px;line-height:1.62;color:var(--char);max-width:62ch}
 
-/* keyboard-visible controls keep the editorial palette but never disappear on dark surfaces */
-.nav__search:focus-visible,.nav__tel:focus-visible,.langdd__btn:focus-visible,.fbtn:focus-visible,.chip:focus-visible,.brands button:focus-visible,.rail__btn:focus-visible,.thumb:focus-visible,.unit__fn button:focus-visible,.db tr:focus-visible,.db th button:focus-visible,.select:focus-visible,.range input:focus-visible,.search__x:focus-visible{outline:2px solid var(--red-hi);outline-offset:3px}
-@media (hover:hover){.btn:hover,.fbtn:hover,.rail__btn:hover,.pb__nav:hover,.unit__fn button:hover,.brands button:hover{will-change:background-color,color,border-color}}
-
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
 }
@@ -592,16 +568,12 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
   .hero__lead{order:5}
   .readout{order:6}
   .hero__cta .btn{min-height:48px;padding:0 10px;font-size:11.5px;letter-spacing:.1em;flex:1 1 0}
-  .wm{font-size:15.6vw;letter-spacing:-.045em}
-}
-@media (max-width:419.98px){
-  .order__tel a{font-size:clamp(20px,6.8vw,30px);gap:8px;letter-spacing:-.02em}
 }
 @media (max-width:599.98px){
   .sec__meter{display:none}
   .pb__keys span:first-child{display:none}
   .pb__keys{justify-content:flex-end}
-  .unit__fn{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}
+  .unit__fn{grid-template-columns:1.3fr 1fr}
   .unit__fn .ico{display:none}
   .unit__fn button{font-size:10px;letter-spacing:.08em}
 }
@@ -708,13 +680,6 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
   .nav__end{gap:6px}
   .langdd__btn{padding:0 8px;gap:4px}
 }
-@media (max-width:319.98px){
-  .nav{gap:8px}
-  .nav__brand{gap:0;flex:none}
-  .nav__brand span{display:none}
-  .nav__end{flex:1;min-width:0;justify-content:flex-end}
-  .nav__tel,.nav__search,.langdd__btn{min-width:40px;padding-left:7px;padding-right:7px}
-}
 /* 900–1019px: nav-da dil düyməsinə yer açmaq üçün Search yalnız ikon kimi (mobil kimi) */
 @media (min-width:900px) and (max-width:1019.98px){
   .nav__search span{display:none}
@@ -728,7 +693,6 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content" data-i18n="skipLink">Məzmuna keç</a>
 
 <noscript><p style="padding:24px;text-align:center">Kataloqu görmək üçün JavaScript-i aktiv edin.</p></noscript>
 
@@ -746,13 +710,13 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
   <div class="nav__end">
     <div class="langdd" id="langdd">
       <button class="langdd__btn" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="langMenu" aria-label="Dil: Azərbaycanca"><span id="langCur">AZ</span><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3.5l3 3 3-3"/></svg></button>
-      <div class="langdd__menu" id="langMenu" role="group" data-i18n-aria="language" aria-label="Dil" hidden>
+      <div class="langdd__menu" id="langMenu" role="group" aria-label="Dil · Language · Язык" hidden>
         <button type="button" data-lang="az" lang="az" aria-label="Azərbaycanca" aria-pressed="true">AZ<span>Azərbaycanca</span></button>
         <button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="false">EN<span>English</span></button>
         <button type="button" data-lang="ru" lang="ru" aria-label="Русский" aria-pressed="false">RU<span>Русский</span></button>
       </div>
     </div>
-    <a class="nav__tel" href="https://wa.me/994517069031" data-wa-link target="_blank" rel="noopener" aria-label="WhatsApp: +994 51 706 90 31"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span data-contact-number>+994 51 706 90 31</span></a>
+    <a class="nav__tel" href="https://wa.me/994517069031" target="_blank" rel="noopener" aria-label="WhatsApp: +994 51 706 90 31"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span>+994 51 706 90 31</span></a>
     <button class="nav__search" type="button" data-jump-search data-i18n-aria="searchAria" aria-label="Kamera axtar">
       <svg class="ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4.5 4.5"/></svg><span data-i18n="search">Search</span>
     </button>
@@ -767,7 +731,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
   <a href="#database" data-spy="database"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span data-i18n="navDatabase">Database</span></a>
 </nav>
 
-<main id="main-content" tabindex="-1">
+<main>
 <!-- ============================ HERO ============================ -->
 <section class="hero" id="top" aria-labelledby="heroH">
 
@@ -850,7 +814,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 
     <div class="ctl" id="ctl">
       <div class="ctl__row">
-        <div class="search" id="search" role="search" data-i18n-aria="searchLabel" aria-label="Model və ya marka axtar">
+        <div class="search" id="search" role="search">
           <svg class="ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4.5 4.5"/></svg>
           <label class="sr" for="q" data-i18n="searchLabel">Model və ya marka axtar</label>
           <input id="q" type="search" inputmode="search" autocomplete="off" autocapitalize="off" spellcheck="false" data-i18n-placeholder="searchPh" placeholder="Model və ya marka">
@@ -928,7 +892,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
       <div class="sec__meter" aria-hidden="true"><b id="dbTot">91</b><span data-i18n="recordsWord">qeyd</span></div>
     </div>
     <div class="db__tools">
-      <div class="search" id="dbSearch" role="search" data-i18n-aria="dbSearchLabel" aria-label="Cədvəldə axtar">
+      <div class="search" id="dbSearch" role="search">
         <svg class="ico" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4.5 4.5"/></svg>
         <label class="sr" for="dbq" data-i18n="dbSearchLabel">Cədvəldə axtar</label>
         <input id="dbq" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" data-i18n-placeholder="dbSearchPh" placeholder="Cədvəldə axtar">
@@ -976,7 +940,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
       </div>
       <div class="order__tel">
         <small data-i18n="orderContact">Əlaqə · Sifariş</small>
-        <a href="https://wa.me/994517069031" data-wa-link target="_blank" rel="noopener" aria-label="WhatsApp: +994 51 706 90 31"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span data-contact-number>+994 51 706 90 31</span></a>
+        <a href="https://wa.me/994517069031" target="_blank" rel="noopener" aria-label="WhatsApp: +994 51 706 90 31"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>+994 51 706 90 31</a>
       </div>
     </div></div>
   </div>
@@ -987,7 +951,7 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
   <div class="wrap">
     <span class="brand">VINTECH</span>
     <span data-i18n="footNote">Digital Memories · Qiymətlər AZN ilə göstərilib</span>
-    <a class="tel" href="https://wa.me/994517069031" data-wa-link target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span data-contact-number>+994 51 706 90 31</span></a>
+    <a class="tel" href="https://wa.me/994517069031" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>+994 51 706 90 31</a>
     <a href="https://instagram.com/vintech.az" target="_blank" rel="noopener">@vintech.az</a>
   </div>
 </footer>
@@ -1006,12 +970,11 @@ h1.hero__h{margin:0;display:flex;flex-direction:column;gap:6px;width:100%}
 /* ================= AYARLAR ================= */
 var CONFIG = {
   whatsapp: "994517069031",          // sifariş nömrəsi (+994 51 706 90 31). Boşdursa: mesaj kopyalanır + Instagram DM açılır
-  phoneDisplay: "+994 51 706 90 31",
   instagram: "vintech.az"
 };
 
 /* ================= MƏLUMAT (dəyişməyib) ================= */
-var PRODUCTS = [{"id": "fujifilm-xt30-qara-qutulu", "brand": "Fujifilm", "name": "FujiFilm XT30", "color": "Qara", "cond": "boxed", "price": 1099, "old": null, "pct": null, "section": "Boxed Collection", "page": 4, "isNew": false, "desc": "Retro siferblatlar, dəyişdirilə bilən obyektiv. Kolleksiyanın ən ciddi modeli."}, {"id": "fujifilm-x20-qara-gumusu-qutulu", "brand": "Fujifilm", "name": "FujiFilm X20", "color": "Qara Gümüşü", "cond": "boxed", "price": 799, "old": null, "pct": null, "section": "Boxed Collection", "page": 4, "isNew": false, "desc": "Rangefinder ruhlu retro dizayn, optik vizir. Seçilmiş premium kompakt."}, {"id": "canon-ixus-870-is-gumusu-qutulu", "brand": "Canon", "name": "Canon IXUS 870 IS", "color": "Gümüşü", "cond": "boxed", "price": 329, "old": 359, "pct": 8, "section": "Boxed Collection", "page": 5, "isNew": false, "desc": "Metal gövdə, klassik IXUS cizgiləri. Cibdə gəzən kiçik zərgərlik."}, {"id": "canon-powershot-a2500-qara-gumusu-qutulu", "brand": "Canon", "name": "Canon PowerShot A2500", "color": "Qara Gümüşü", "cond": "boxed", "price": 309, "old": 339, "pct": 9, "section": "Boxed Collection", "page": 5, "isNew": false, "desc": "Sadə, yüngül və etibarlı. Gündəlik anlar üçün ideal başlanğıc."}, {"id": "canon-powershot-a590-is-gumusu-qutulu", "brand": "Canon", "name": "Canon PowerShot A590 IS", "color": "Gümüşü", "cond": "boxed", "price": 279, "old": null, "pct": null, "section": "Boxed Collection", "page": 5, "isNew": false, "desc": "Tutacaqlı, möhkəm gövdə. Əsl 2000-lər PowerShot xarakteri."}, {"id": "canon-powershot-sd780-is-gumusu-qutulu", "brand": "Canon", "name": "Canon PowerShot SD780 IS", "color": "Gümüşü", "cond": "boxed", "price": 319, "old": 349, "pct": 9, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Kiçik, zərif, parlaq gümüşü. Hər çəkilişdə bir az nostalji."}, {"id": "sony-dsc-w810-tund-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W810", "color": "Tünd Gümüşü", "cond": "boxed", "price": 319, "old": null, "pct": null, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Minimal Cyber-shot dizaynı, rahat idarə. Hər gün yanında."}, {"id": "sony-dsc-w800-tund-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W800", "color": "Tünd Gümüşü", "cond": "boxed", "price": 319, "old": null, "pct": null, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Yığcam və sadə. İlk digicam təcrübəsi üçün mükəmməl seçim."}, {"id": "sony-dsc-w650-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W650", "color": "Gümüşü", "cond": "boxed", "price": 289, "old": null, "pct": null, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Fırçalanmış metal üz, Carl Zeiss obyektiv. Təmiz, parlaq kadrlar."}, {"id": "sony-dsc-wx350-qara-qutulu", "brand": "Sony", "name": "Sony DSC-WX350", "color": "Qara", "cond": "boxed", "price": 399, "old": 429, "pct": 7, "section": "Boxed Collection", "page": 7, "isNew": false, "desc": "Kiçik gövdədə güclü zoom. Səyahət çantasının gizli ulduzu."}, {"id": "sony-dsc-w360-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W360", "color": "Gümüşü", "cond": "boxed", "price": 279, "old": null, "pct": null, "section": "Boxed Collection", "page": 7, "isNew": false, "desc": "Sakit gümüşü ton, sadə xətlər. Zamansız kompakt."}, {"id": "sony-dsc-w550-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W550", "color": "Gümüşü", "cond": "boxed", "price": 289, "old": null, "pct": null, "section": "Boxed Collection", "page": 7, "isNew": false, "desc": "İncə gövdə, klassik Cyber-shot silueti. Səliqəli və yüngül."}, {"id": "sony-dsc-wx100-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-WX100", "color": "Gümüşü", "cond": "boxed", "price": 279, "old": 299, "pct": 7, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Cibə sığan, amma ciddi görünən Cyber-shot. Zövqlü və yığcam."}, {"id": "sony-dsc-wx9-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-WX9", "color": "Gümüşü", "cond": "boxed", "price": 279, "old": 299, "pct": 7, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Kiçik gövdə, Carl Zeiss obyektiv. Sakit, amma iddialı."}, {"id": "samsung-es75-qara-qutulu", "brand": "Samsung", "name": "Samsung ES75", "color": "Qara", "cond": "boxed", "price": 189, "old": null, "pct": null, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Sadə idarə, yumşaq cizgilər. Hər gün üçün rahat kompakt."}, {"id": "samsung-galaxy-camera-ag-qutulu", "brand": "Samsung", "name": "Samsung Galaxy Camera", "color": "Ağ", "cond": "boxed", "price": 229, "old": null, "pct": null, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Kamera ilə smartfonun ilk görüşü. İri, ağ və tamamilə fərqli."}, {"id": "samsung-st95-qara-qutulu", "brand": "Samsung", "name": "Samsung ST95", "color": "Qara", "cond": "boxed", "price": 259, "old": null, "pct": null, "section": "Boxed Collection", "page": 9, "isNew": false, "desc": "Nazik, parlaq və müasir. Cibdə demək olar hiss olunmur."}, {"id": "samsung-st700-qara-qutulu", "brand": "Samsung", "name": "Samsung ST700", "color": "Qara", "cond": "boxed", "price": 249, "old": 279, "pct": 11, "section": "Boxed Collection", "page": 9, "isNew": false, "desc": "Ön ekranlı selfie kamerası. Trend olmamışdan əvvəl."}, {"id": "samsung-l110-qara-qutulu", "brand": "Samsung", "name": "Samsung L110", "color": "Qara", "cond": "boxed", "price": 199, "old": null, "pct": null, "section": "Boxed Collection", "page": 9, "isNew": false, "desc": "Düz, minimal qara gövdə. 2000-lərin təmiz Samsung estetikası."}, {"id": "samsung-wb700-qara-qutulu", "brand": "Samsung", "name": "Samsung WB700", "color": "Qara", "cond": "boxed", "price": 249, "old": 279, "pct": 11, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Schneider obyektiv, böyük zoom. Uzaq planlar üçün ciddi seçim."}, {"id": "samsung-wb210-qara-qutulu", "brand": "Samsung", "name": "Samsung WB210", "color": "Qara", "cond": "boxed", "price": 269, "old": null, "pct": null, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Geniş zoom, möhkəm tutuş. Səyahət üçün düşünülmüş kompakt."}, {"id": "samsung-wb150f-qara-qutulu", "brand": "Samsung", "name": "Samsung WB150F", "color": "Qara", "cond": "boxed", "price": 259, "old": null, "pct": null, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Uzun zoom, yığcam gövdə. Səyahətdə rahat yoldaş."}, {"id": "samsung-wb35f-tund-goy-qutulu", "brand": "Samsung", "name": "Samsung WB35F", "color": "Tünd Göy", "cond": "boxed", "price": 249, "old": null, "pct": null, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Dəri fakturalı gövdə, tünd göy ton. Retro görünüş, müasir rahatlıq."}, {"id": "nikon-coolpix-l25-qara-qutulu", "brand": "Nikon", "name": "Nikon Coolpix L25", "color": "Qara", "cond": "boxed", "price": 219, "old": null, "pct": null, "section": "Boxed Collection", "page": 11, "isNew": false, "desc": "Sadə düymələr, rahat tutuş. Coolpix ilə tanışlıq üçün ideal."}, {"id": "nikon-coolpix-s6150-qirmizi-qutulu", "brand": "Nikon", "name": "Nikon Coolpix S6150", "color": "Qırmızı", "cond": "boxed", "price": 459, "old": null, "pct": null, "section": "Boxed Collection", "page": 11, "isNew": false, "desc": "Parlaq qırmızı, sensor ekran. Göz oxşayan Coolpix."}, {"id": "benq-dc-x725-qirmizi-qutulu", "brand": "Benq", "name": "Benq DC X725", "color": "Qırmızı", "cond": "boxed", "price": 189, "old": null, "pct": null, "section": "Boxed Collection", "page": 11, "isNew": false, "desc": "Parlaq qırmızı, dəyirmi künclər. Tam Y2K xarakteri."}, {"id": "panasonic-lumix-fp3-gumusu-qutulu", "brand": "Panasonic", "name": "Panasonic Lumix FP3", "color": "Gümüşü", "cond": "boxed", "price": 199, "old": null, "pct": null, "section": "Boxed Collection", "page": 12, "isNew": false, "desc": "Çıxıntısız obyektiv, düz metal üz. Futuristik 2000-lər dizaynı."}, {"id": "nikon-coolpix-s2500-qara-qutulu", "brand": "Nikon", "name": "Nikon Coolpix S2500", "color": "Qara", "cond": "boxed", "price": 249, "old": null, "pct": null, "section": "Boxed Collection", "page": 12, "isNew": false, "desc": "Yığcam gövdə, sadə idarə. Cibə rahat sığır."}, {"id": "olympus-d-715-qara-qutulu", "brand": "Olympus", "name": "Olympus D-715", "color": "Qara", "cond": "boxed", "price": 209, "old": null, "pct": null, "section": "Boxed Collection", "page": 12, "isNew": false, "desc": "Minimal qara Olympus. Sakit, səliqəli və rahat."}, {"id": "canon-ixus-105-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 105", "color": "Gümüşü", "cond": "single", "price": 349, "old": null, "pct": null, "section": "Pocket Icons", "page": 14, "isNew": false, "desc": "Yumru künclər, parlaq gümüşü. Əldə yumşaq, görünüşdə zərif."}, {"id": "canon-ixus-100-is-qara-kosmetika-qutusuz", "brand": "Canon", "name": "Canon IXUS 100 IS", "color": "Qara (Kosmetika)", "cond": "single", "price": 299, "old": null, "pct": null, "section": "Pocket Icons", "page": 14, "isNew": false, "desc": "Mat qara, incə forma. Kiçik, zərif və hər gün yanında."}, {"id": "canon-ixus-95-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 95 IS", "color": "Gümüşü", "cond": "single", "price": 309, "old": null, "pct": null, "section": "Pocket Icons", "page": 14, "isNew": false, "desc": "Klassik IXUS silueti. Hər kadrda o tanış 2000-lər hissi."}, {"id": "canon-powershot-a4000-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A4000", "color": "Gümüşü", "cond": "single", "price": 349, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Yüngül, sadə, gümüşü. Gündəlik çəkilişlər üçün rahat seçim."}, {"id": "canon-powershot-a3400-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A3400", "color": "Gümüşü", "cond": "single", "price": 319, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Qara obyektiv halqası, gümüşü gövdə. Sadə və səliqəli."}, {"id": "sony-dsc-w650-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W650", "color": "Gümüşü", "cond": "single", "price": 279, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Carl Zeiss obyektiv, fırçalanmış gümüşü üz. Sakit və parlaq."}, {"id": "sony-dsc-w610-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W610", "color": "Qara", "cond": "single", "price": 259, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Minimal qara Cyber-shot. Heç vaxt dəbdən düşmür."}, {"id": "sony-dsc-w530-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W530", "color": "Gümüşü", "cond": "single", "price": 239, "old": 259, "pct": 8, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Təmiz gümüşü xətlər, Carl Zeiss obyektiv. Klassik Cyber-shot."}, {"id": "sony-dsc-w530-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W530", "color": "Qara", "cond": "single", "price": 239, "old": 259, "pct": 8, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Qara, sakit, səliqəli. Gündəlik çəkilişlər üçün etibarlı dost."}, {"id": "sony-dsc-w350-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W350", "color": "Gümüşü", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Nazik gövdə, parlaq gümüşü. Cibdə demək olar görünmür."}, {"id": "sony-dsc-w330-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W330", "color": "Qara", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Fırçalanmış qara üz, Carl Zeiss imzası. Zamansız minimalizm."}, {"id": "samsung-dv300f-qara-qutusuz", "brand": "Samsung", "name": "Samsung DV300F", "color": "Qara", "cond": "single", "price": 269, "old": null, "pct": null, "section": "Pocket Icons", "page": 17, "isNew": false, "desc": "Ön ekran, parlaq qara gövdə. Selfie üçün düşünülmüş kompakt."}, {"id": "samsung-es90-qara-qutusuz", "brand": "Samsung", "name": "Samsung ES90", "color": "Qara", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Pocket Icons", "page": 17, "isNew": false, "desc": "Sadə menyular, rahat gövdə. Hər gün üçün etibarlı."}, {"id": "samsung-es70-qara-qutusuz", "brand": "Samsung", "name": "Samsung ES70", "color": "Qara", "cond": "single", "price": 189, "old": null, "pct": null, "section": "Pocket Icons", "page": 17, "isNew": false, "desc": "Qara-gümüşü çərçivə, klassik forma. Yüngül və rahat."}, {"id": "samsung-es65-gumusu-qutusuz", "brand": "Samsung", "name": "Samsung ES65", "color": "Gümüşü", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Parlaq gümüşü, sadə idarə. Ailə anları üçün ideal."}, {"id": "samsung-pl170-qara-qutusuz", "brand": "Samsung", "name": "Samsung PL170", "color": "Qara", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Ön ekranlı, parlaq qara gövdə. Özünü çəkmək heç bu qədər asan olmayıb."}, {"id": "samsung-pl70-qara-qutusuz", "brand": "Samsung", "name": "Samsung PL70", "color": "Qara", "cond": "single", "price": 219, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Mat qara, iri obyektiv halqası. Sadə və ciddi görünüş."}, {"id": "samsung-st45-qara-qutusuz", "brand": "Samsung", "name": "Samsung ST45", "color": "Qara", "cond": "single", "price": 219, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Nazik qara gövdə, parlaq üz. Cib üçün ideal."}, {"id": "nikon-s2700-gumusu-qutusuz", "brand": "Nikon", "name": "Nikon S2700", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Pocket Icons", "page": 19, "isNew": false, "desc": "İncə gümüşü Coolpix. Sadə, yüngül və zərif."}, {"id": "fujifilm-finepix-j500-qara-qutusuz", "brand": "Fujifilm", "name": "Fujifilm FinePix J500", "color": "Qara", "cond": "single", "price": 159, "old": null, "pct": null, "section": "Pocket Icons", "page": 19, "isNew": false, "desc": "Sadə və yüngül. Fujifilm rəngləri cibində."}, {"id": "nikon-s220-gumusu-qutusuz", "brand": "Nikon", "name": "Nikon S220", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Pocket Icons", "page": 19, "isNew": false, "desc": "Nazik gümüşü gövdə, sakit xətlər. Minimal Nikon klassikası."}, {"id": "panasonic-dmc-fs32-qara-qutusuz", "brand": "Panasonic", "name": "Panasonic DMC-FS32", "color": "Qara", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Pocket Icons", "page": 20, "isNew": false, "desc": "Leica imzalı obyektiv, sakit qara gövdə. Səliqəli Lumix."}, {"id": "panasonic-dmc-s2-qara-qutusuz", "brand": "Panasonic", "name": "Panasonic DMC-S2", "color": "Qara", "cond": "single", "price": 179, "old": null, "pct": null, "section": "Pocket Icons", "page": 20, "isNew": false, "desc": "Yumru künclər, qara gövdə. Sadə Lumix rahatlığı."}, {"id": "canon-powershot-a720-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A720", "color": "Gümüşü", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Y2K Favorites", "page": 22, "isNew": false, "desc": "Tutacaqlı klassik PowerShot. 2000-lərin ailə albomlarının kamerası."}, {"id": "canon-powershot-a460-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A460", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Y2K Favorites", "page": 22, "isNew": false, "desc": "Retro gümüşü forma, sadə düymələr. Nostaljinin ən saf halı."}, {"id": "canon-ixus-75-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 75 IS", "color": "Gümüşü", "cond": "single", "price": 279, "old": null, "pct": null, "section": "Y2K Favorites", "page": 22, "isNew": false, "desc": "Dik silueti ilə seçilən kiçik IXUS. Erkən 2000-lərin dizaynı."}, {"id": "canon-powershot-sd-770-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot SD 770 IS", "color": "Gümüşü", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "İncə metal gövdə, klassik ELPH xətti. Kolleksiyaçıların sevimlisi."}, {"id": "sony-dsc-t100-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-T100", "color": "Gümüşü", "cond": "single", "price": 199, "old": 219, "pct": 9, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "Sürüşən ön panel, düz metal üz. T seriyasının zərif klassikası."}, {"id": "sony-dsc-w130-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W130", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "Metal gövdə, optik vizir. Əsl 2000-lər Cyber-shot ruhu."}, {"id": "sony-dsc-w110-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W110", "color": "Qara", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "Qara metal, optik vizir. Köhnə məktəb digicam xarakteri."}, {"id": "sony-dsc-w50-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W50", "color": "Gümüşü", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "Klassik gümüşü Cyber-shot forması. Birbaşa Y2K arxivindən."}, {"id": "sony-dsc-w30-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W30", "color": "Gümüşü", "cond": "single", "price": 189, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "Kiçik, gümüşü və tam nostalji. O illərin ilk digicam hissi."}, {"id": "hp-r707-gumusu-qutusuz", "brand": "HP", "name": "HP R707", "color": "Gümüşü", "cond": "single", "price": 129, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "HP Photosmart, nadir tapılan 2000-lər digicamı. Kolleksiya parçası."}, {"id": "hp-s-500-qara-qutusuz", "brand": "HP", "name": "HP S-500", "color": "Qara", "cond": "single", "price": 139, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "Nadir HP modeli, sadə idarə. Nostalji həvəskarları üçün."}, {"id": "canon-ixus-95-is-mavi-qutusuz", "brand": "Canon", "name": "Canon IXUS 95 IS", "color": "Mavi", "cond": "single", "price": 319, "old": null, "pct": null, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Boz-mavi ton, gümüşü detallar. Kolleksiya üçün xoş tapıntı."}, {"id": "canon-ixus-80-is-qehveyi-qutusuz", "brand": "Canon", "name": "Canon IXUS 80 IS", "color": "Qəhvəyi", "cond": "single", "price": 339, "old": null, "pct": null, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Şokolad qəhvəyi, parlaq metal çərçivə. Sakit, amma fərqli."}, {"id": "sony-dsc-t77-cehrayi-qutusuz", "brand": "Sony", "name": "Sony DSC-T77", "color": "Çəhrayı", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Pudra çəhrayı, incə panel. Y2K-nin ən zərif siması."}, {"id": "sony-dsc-w610-yasil-qutusuz", "brand": "Sony", "name": "Sony DSC-W610", "color": "Yaşıl", "cond": "single", "price": 249, "old": 279, "pct": 11, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Açıq yaşıl, oynaq və parlaq. Kolleksiyanın ən şən rəngi."}, {"id": "samsung-st70-narinci-qutusuz", "brand": "Samsung", "name": "Samsung ST70", "color": "Narıncı", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Style & Flash", "page": 27, "isNew": false, "desc": "Parlaq narıncı, dəyirmi forma. Kolleksiyanın ən cəsur tonu."}, {"id": "samsung-l110-cehrayi-qutusuz", "brand": "Samsung", "name": "Samsung L110", "color": "Çəhrayı", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Style & Flash", "page": 27, "isNew": false, "desc": "Pastel çəhrayı, düz minimal üz. Tam 2000-lər estetikası."}, {"id": "samsung-st77-benovseyi-qutusuz", "brand": "Samsung", "name": "Samsung ST77", "color": "Bənövşəyi", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Style & Flash", "page": 27, "isNew": false, "desc": "Dərin bənövşəyi, gümüşü halqa. Diqqəti dərhal çəkir."}, {"id": "samsung-st66-mavi-qutusuz", "brand": "Samsung", "name": "Samsung ST66", "color": "Mavi", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "Səma mavisi, gümüşü detallar. Yay kadrları üçün yaradılıb."}, {"id": "nikon-s2700-qirmizi-qutusuz", "brand": "Nikon", "name": "Nikon S2700", "color": "Qırmızı", "cond": "single", "price": 199, "old": 219, "pct": 9, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "Parlaq qırmızı Coolpix. Fotoda da, əldə də göz oxşayır."}, {"id": "olympus-fe-5010-qirmizi-qutusuz", "brand": "Olympus", "name": "Olympus FE-5010", "color": "Qırmızı", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "İki tonlu ön panel, cəsur rəng. Zərif Olympus FE."}, {"id": "olympus-mu-9000-mju-9000-goy-qutusuz", "brand": "Olympus", "name": "Olympus μ-9000 (mju-9000)", "color": "Göy", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "Dərin göy, gümüşü çərçivə. Olympus μ seriyasının şık üzvü."}, {"id": "canon-powershot-sx130-is-bej-qutusuz", "brand": "Canon", "name": "Canon PowerShot SX130 IS", "color": "Bej", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Zoom Club", "page": 30, "isNew": false, "desc": "Bej ton, iri obyektiv, geniş zoom. Səyahətdə zövqlü yoldaş."}, {"id": "sony-dsc-w730-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W730", "color": "Qara", "cond": "single", "price": 279, "old": null, "pct": null, "section": "Zoom Club", "page": 30, "isNew": false, "desc": "Qara gövdə, gümüşü obyektiv halqası. Yığcam, amma zoomu uzun."}, {"id": "canon-powershot-sx110-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot SX110 IS", "color": "Gümüşü", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Zoom Club", "page": 30, "isNew": false, "desc": "Kiçik superzoom forması, rahat tutacaq. Uzağı yaxına gətirir."}, {"id": "samsung-wb550-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB550", "color": "Qara", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Zoom Club", "page": 31, "isNew": false, "desc": "Geniş bucaq, uzun zoom, möhkəm tutuş. Klassik travel-zoom."}, {"id": "samsung-wb700-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB700", "color": "Qara", "cond": "single", "price": 269, "old": null, "pct": null, "section": "Zoom Club", "page": 31, "isNew": false, "desc": "Schneider obyektiv, geniş zoom. Səyahət kameralarının ciddisi."}, {"id": "samsung-wb650-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB650", "color": "Qara", "cond": "single", "price": 259, "old": null, "pct": null, "section": "Zoom Club", "page": 31, "isNew": false, "desc": "Möhkəm qara gövdə, uzun zoom. Uzaq planlar üçün."}, {"id": "casio-ex-h10-gumusu-qutusuz", "brand": "Casio", "name": "Casio EX-H10", "color": "Gümüşü", "cond": "single", "price": 219, "old": null, "pct": null, "section": "Zoom Club", "page": 32, "isNew": false, "desc": "Exilim ruhu, uzun zoom, qalın tutuş. Səyahət üçün seçilmiş."}, {"id": "samsung-wb350f-qara-gumusu-qutusuz", "brand": "Samsung", "name": "Samsung WB350F", "color": "Qara Gümüşü", "cond": "single", "price": 289, "old": 319, "pct": 9, "section": "Zoom Club", "page": 32, "isNew": false, "desc": "Dəri fakturası, gümüşü çərçivə. Uzun zoom, retro görünüş."}, {"id": "samsung-wb30f-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB30F", "color": "Qara", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Zoom Club", "page": 32, "isNew": false, "desc": "Yığcam gövdə, uzun zoom. Səyahətə hazır."}, {"id": "nikon-a900-qara-qutusuz", "brand": "Nikon", "name": "Nikon A900", "color": "Qara", "cond": "single", "price": 899, "old": null, "pct": null, "section": "New Arrivals", "page": 34, "isNew": true, "desc": "35x optik zoom, 4K video. Kolleksiyanın ən güclü səyahət kamerası."}, {"id": "canon-ixus-90-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 90", "color": "Gümüşü", "cond": "single", "price": 279, "old": 299, "pct": 7, "section": "New Arrivals", "page": 34, "isNew": true, "desc": "Zərif gümüşü gövdə, klassik IXUS xətləri."}, {"id": "canon-powershot-sx200-is-qehveyi-qutusuz", "brand": "Canon", "name": "Canon PowerShot SX200 IS", "color": "Qəhvəyi", "cond": "single", "price": 289, "old": 319, "pct": 9, "section": "New Arrivals", "page": 34, "isNew": true, "desc": "Şokolad qəhvəyi gövdə, 12x optik zoom."}, {"id": "sony-dsc-w610-benovseyi-qutusuz", "brand": "Sony", "name": "Sony DSC-W610", "color": "Bənövşəyi", "cond": "single", "price": 249, "old": 279, "pct": 11, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "Bənövşəyi Cyber-shot, zərif və fərqli."}, {"id": "samsung-es73-qirmizi-qutusuz", "brand": "Samsung", "name": "Samsung ES73", "color": "Qırmızı", "cond": "single", "price": 199, "old": 219, "pct": 9, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "Parlaq qırmızı gövdə, sadə idarə."}, {"id": "sony-wx220-qara-qutusuz", "brand": "Sony", "name": "Sony WX220", "color": "Qara", "cond": "single", "price": 379, "old": 409, "pct": 7, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "10x optik zoom G-lens. Müasir görünüş."}, {"id": "samsung-es90-qara-qutulu", "brand": "Samsung", "name": "Samsung ES90", "color": "Qara", "cond": "boxed", "price": 209, "old": null, "pct": null, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "Tam dəstlə, qutusunda. Etibarlı gündəlik."}, {"id": "canon-ixus-620-is-qara-qutusuz", "brand": "Canon", "name": "Canon IXUS 620 IS", "color": "Qara", "cond": "single", "price": 649, "old": null, "pct": null, "section": "New Arrivals", "page": 36, "isNew": true, "desc": "25x optik zoom, kompakt gövdədə güclü performans. Uzaq planların ustası."}];
+var PRODUCTS = [{"id": "fujifilm-xt30-qara-qutulu", "brand": "Fujifilm", "name": "FujiFilm XT30", "color": "Qara", "cond": "boxed", "price": 1099, "old": null, "pct": null, "section": "Boxed Collection", "page": 4, "isNew": false, "desc": "Retro siferblatlar, dəyişdirilə bilən obyektiv. Kolleksiyanın ən ciddi modeli."}, {"id": "fujifilm-x20-qara-gumusu-qutulu", "brand": "Fujifilm", "name": "FujiFilm X20", "color": "Qara Gümüşü", "cond": "boxed", "price": 799, "old": null, "pct": null, "section": "Boxed Collection", "page": 4, "isNew": false, "desc": "Rangefinder ruhlu retro dizayn, optik vizir. Seçilmiş premium kompakt."}, {"id": "canon-ixus-870-is-gumusu-qutulu", "brand": "Canon", "name": "Canon IXUS 870 IS", "color": "Gümüşü", "cond": "boxed", "price": 359, "old": 359, "pct": 8, "section": "Boxed Collection", "page": 5, "isNew": false, "desc": "Metal gövdə, klassik IXUS cizgiləri. Cibdə gəzən kiçik zərgərlik."}, {"id": "canon-powershot-a2500-qara-gumusu-qutulu", "brand": "Canon", "name": "Canon PowerShot A2500", "color": "Qara Gümüşü", "cond": "boxed", "price": 339, "old": 339, "pct": 9, "section": "Boxed Collection", "page": 5, "isNew": false, "desc": "Sadə, yüngül və etibarlı. Gündəlik anlar üçün ideal başlanğıc."}, {"id": "canon-powershot-a590-is-gumusu-qutulu", "brand": "Canon", "name": "Canon PowerShot A590 IS", "color": "Gümüşü", "cond": "boxed", "price": 279, "old": null, "pct": null, "section": "Boxed Collection", "page": 5, "isNew": false, "desc": "Tutacaqlı, möhkəm gövdə. Əsl 2000-lər PowerShot xarakteri."}, {"id": "canon-powershot-sd780-is-gumusu-qutulu", "brand": "Canon", "name": "Canon PowerShot SD780 IS", "color": "Gümüşü", "cond": "boxed", "price": 349, "old": 349, "pct": 9, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Kiçik, zərif, parlaq gümüşü. Hər çəkilişdə bir az nostalji."}, {"id": "sony-dsc-w810-tund-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W810", "color": "Tünd Gümüşü", "cond": "boxed", "price": 319, "old": null, "pct": null, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Minimal Cyber-shot dizaynı, rahat idarə. Hər gün yanında."}, {"id": "sony-dsc-w800-tund-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W800", "color": "Tünd Gümüşü", "cond": "boxed", "price": 319, "old": null, "pct": null, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Yığcam və sadə. İlk digicam təcrübəsi üçün mükəmməl seçim."}, {"id": "sony-dsc-w650-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W650", "color": "Gümüşü", "cond": "boxed", "price": 289, "old": null, "pct": null, "section": "Boxed Collection", "page": 6, "isNew": false, "desc": "Fırçalanmış metal üz, Carl Zeiss obyektiv. Təmiz, parlaq kadrlar."}, {"id": "sony-dsc-wx350-qara-qutulu", "brand": "Sony", "name": "Sony DSC-WX350", "color": "Qara", "cond": "boxed", "price": 429, "old": 429, "pct": 7, "section": "Boxed Collection", "page": 7, "isNew": false, "desc": "Kiçik gövdədə güclü zoom. Səyahət çantasının gizli ulduzu."}, {"id": "sony-dsc-w360-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W360", "color": "Gümüşü", "cond": "boxed", "price": 279, "old": null, "pct": null, "section": "Boxed Collection", "page": 7, "isNew": false, "desc": "Sakit gümüşü ton, sadə xətlər. Zamansız kompakt."}, {"id": "sony-dsc-w550-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-W550", "color": "Gümüşü", "cond": "boxed", "price": 289, "old": null, "pct": null, "section": "Boxed Collection", "page": 7, "isNew": false, "desc": "İncə gövdə, klassik Cyber-shot silueti. Səliqəli və yüngül."}, {"id": "sony-dsc-wx100-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-WX100", "color": "Gümüşü", "cond": "boxed", "price": 299, "old": 299, "pct": 7, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Cibə sığan, amma ciddi görünən Cyber-shot. Zövqlü və yığcam."}, {"id": "sony-dsc-wx9-gumusu-qutulu", "brand": "Sony", "name": "Sony DSC-WX9", "color": "Gümüşü", "cond": "boxed", "price": 299, "old": 299, "pct": 7, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Kiçik gövdə, Carl Zeiss obyektiv. Sakit, amma iddialı."}, {"id": "samsung-es75-qara-qutulu", "brand": "Samsung", "name": "Samsung ES75", "color": "Qara", "cond": "boxed", "price": 189, "old": null, "pct": null, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Sadə idarə, yumşaq cizgilər. Hər gün üçün rahat kompakt."}, {"id": "samsung-galaxy-camera-ag-qutulu", "brand": "Samsung", "name": "Samsung Galaxy Camera", "color": "Ağ", "cond": "boxed", "price": 229, "old": null, "pct": null, "section": "Boxed Collection", "page": 8, "isNew": false, "desc": "Kamera ilə smartfonun ilk görüşü. İri, ağ və tamamilə fərqli."}, {"id": "samsung-st95-qara-qutulu", "brand": "Samsung", "name": "Samsung ST95", "color": "Qara", "cond": "boxed", "price": 259, "old": null, "pct": null, "section": "Boxed Collection", "page": 9, "isNew": false, "desc": "Nazik, parlaq və müasir. Cibdə demək olar hiss olunmur."}, {"id": "samsung-st700-qara-qutulu", "brand": "Samsung", "name": "Samsung ST700", "color": "Qara", "cond": "boxed", "price": 279, "old": 279, "pct": 11, "section": "Boxed Collection", "page": 9, "isNew": false, "desc": "Ön ekranlı selfie kamerası. Trend olmamışdan əvvəl."}, {"id": "samsung-l110-qara-qutulu", "brand": "Samsung", "name": "Samsung L110", "color": "Qara", "cond": "boxed", "price": 199, "old": null, "pct": null, "section": "Boxed Collection", "page": 9, "isNew": false, "desc": "Düz, minimal qara gövdə. 2000-lərin təmiz Samsung estetikası."}, {"id": "samsung-wb700-qara-qutulu", "brand": "Samsung", "name": "Samsung WB700", "color": "Qara", "cond": "boxed", "price": 279, "old": 279, "pct": 11, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Schneider obyektiv, böyük zoom. Uzaq planlar üçün ciddi seçim."}, {"id": "samsung-wb210-qara-qutulu", "brand": "Samsung", "name": "Samsung WB210", "color": "Qara", "cond": "boxed", "price": 269, "old": null, "pct": null, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Geniş zoom, möhkəm tutuş. Səyahət üçün düşünülmüş kompakt."}, {"id": "samsung-wb150f-qara-qutulu", "brand": "Samsung", "name": "Samsung WB150F", "color": "Qara", "cond": "boxed", "price": 259, "old": null, "pct": null, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Uzun zoom, yığcam gövdə. Səyahətdə rahat yoldaş."}, {"id": "samsung-wb35f-tund-goy-qutulu", "brand": "Samsung", "name": "Samsung WB35F", "color": "Tünd Göy", "cond": "boxed", "price": 249, "old": null, "pct": null, "section": "Boxed Collection", "page": 10, "isNew": false, "desc": "Dəri fakturalı gövdə, tünd göy ton. Retro görünüş, müasir rahatlıq."}, {"id": "nikon-coolpix-l25-qara-qutulu", "brand": "Nikon", "name": "Nikon Coolpix L25", "color": "Qara", "cond": "boxed", "price": 219, "old": null, "pct": null, "section": "Boxed Collection", "page": 11, "isNew": false, "desc": "Sadə düymələr, rahat tutuş. Coolpix ilə tanışlıq üçün ideal."}, {"id": "nikon-coolpix-s6150-qirmizi-qutulu", "brand": "Nikon", "name": "Nikon Coolpix S6150", "color": "Qırmızı", "cond": "boxed", "price": 459, "old": null, "pct": null, "section": "Boxed Collection", "page": 11, "isNew": false, "desc": "Parlaq qırmızı, sensor ekran. Göz oxşayan Coolpix."}, {"id": "benq-dc-x725-qirmizi-qutulu", "brand": "Benq", "name": "Benq DC X725", "color": "Qırmızı", "cond": "boxed", "price": 189, "old": null, "pct": null, "section": "Boxed Collection", "page": 11, "isNew": false, "desc": "Parlaq qırmızı, dəyirmi künclər. Tam Y2K xarakteri."}, {"id": "panasonic-lumix-fp3-gumusu-qutulu", "brand": "Panasonic", "name": "Panasonic Lumix FP3", "color": "Gümüşü", "cond": "boxed", "price": 199, "old": null, "pct": null, "section": "Boxed Collection", "page": 12, "isNew": false, "desc": "Çıxıntısız obyektiv, düz metal üz. Futuristik 2000-lər dizaynı."}, {"id": "nikon-coolpix-s2500-qara-qutulu", "brand": "Nikon", "name": "Nikon Coolpix S2500", "color": "Qara", "cond": "boxed", "price": 249, "old": null, "pct": null, "section": "Boxed Collection", "page": 12, "isNew": false, "desc": "Yığcam gövdə, sadə idarə. Cibə rahat sığır."}, {"id": "olympus-d-715-qara-qutulu", "brand": "Olympus", "name": "Olympus D-715", "color": "Qara", "cond": "boxed", "price": 209, "old": null, "pct": null, "section": "Boxed Collection", "page": 12, "isNew": false, "desc": "Minimal qara Olympus. Sakit, səliqəli və rahat."}, {"id": "canon-ixus-105-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 105", "color": "Gümüşü", "cond": "single", "price": 349, "old": null, "pct": null, "section": "Pocket Icons", "page": 14, "isNew": false, "desc": "Yumru künclər, parlaq gümüşü. Əldə yumşaq, görünüşdə zərif."}, {"id": "canon-ixus-100-is-qara-kosmetika-qutusuz", "brand": "Canon", "name": "Canon IXUS 100 IS", "color": "Qara (Kosmetika)", "cond": "single", "price": 299, "old": null, "pct": null, "section": "Pocket Icons", "page": 14, "isNew": false, "desc": "Mat qara, incə forma. Kiçik, zərif və hər gün yanında."}, {"id": "canon-ixus-95-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 95 IS", "color": "Gümüşü", "cond": "single", "price": 309, "old": null, "pct": null, "section": "Pocket Icons", "page": 14, "isNew": false, "desc": "Klassik IXUS silueti. Hər kadrda o tanış 2000-lər hissi."}, {"id": "canon-powershot-a4000-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A4000", "color": "Gümüşü", "cond": "single", "price": 349, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Yüngül, sadə, gümüşü. Gündəlik çəkilişlər üçün rahat seçim."}, {"id": "canon-powershot-a3400-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A3400", "color": "Gümüşü", "cond": "single", "price": 319, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Qara obyektiv halqası, gümüşü gövdə. Sadə və səliqəli."}, {"id": "sony-dsc-w650-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W650", "color": "Gümüşü", "cond": "single", "price": 279, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Carl Zeiss obyektiv, fırçalanmış gümüşü üz. Sakit və parlaq."}, {"id": "sony-dsc-w610-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W610", "color": "Qara", "cond": "single", "price": 259, "old": null, "pct": null, "section": "Pocket Icons", "page": 15, "isNew": false, "desc": "Minimal qara Cyber-shot. Heç vaxt dəbdən düşmür."}, {"id": "sony-dsc-w530-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W530", "color": "Gümüşü", "cond": "single", "price": 259, "old": 259, "pct": 8, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Təmiz gümüşü xətlər, Carl Zeiss obyektiv. Klassik Cyber-shot."}, {"id": "sony-dsc-w530-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W530", "color": "Qara", "cond": "single", "price": 259, "old": 259, "pct": 8, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Qara, sakit, səliqəli. Gündəlik çəkilişlər üçün etibarlı dost."}, {"id": "sony-dsc-w350-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W350", "color": "Gümüşü", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Nazik gövdə, parlaq gümüşü. Cibdə demək olar görünmür."}, {"id": "sony-dsc-w330-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W330", "color": "Qara", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Pocket Icons", "page": 16, "isNew": false, "desc": "Fırçalanmış qara üz, Carl Zeiss imzası. Zamansız minimalizm."}, {"id": "samsung-dv300f-qara-qutusuz", "brand": "Samsung", "name": "Samsung DV300F", "color": "Qara", "cond": "single", "price": 269, "old": null, "pct": null, "section": "Pocket Icons", "page": 17, "isNew": false, "desc": "Ön ekran, parlaq qara gövdə. Selfie üçün düşünülmüş kompakt."}, {"id": "samsung-es90-qara-qutusuz", "brand": "Samsung", "name": "Samsung ES90", "color": "Qara", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Pocket Icons", "page": 17, "isNew": false, "desc": "Sadə menyular, rahat gövdə. Hər gün üçün etibarlı."}, {"id": "samsung-es70-qara-qutusuz", "brand": "Samsung", "name": "Samsung ES70", "color": "Qara", "cond": "single", "price": 189, "old": null, "pct": null, "section": "Pocket Icons", "page": 17, "isNew": false, "desc": "Qara-gümüşü çərçivə, klassik forma. Yüngül və rahat."}, {"id": "samsung-es65-gumusu-qutusuz", "brand": "Samsung", "name": "Samsung ES65", "color": "Gümüşü", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Parlaq gümüşü, sadə idarə. Ailə anları üçün ideal."}, {"id": "samsung-pl170-qara-qutusuz", "brand": "Samsung", "name": "Samsung PL170", "color": "Qara", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Ön ekranlı, parlaq qara gövdə. Özünü çəkmək heç bu qədər asan olmayıb."}, {"id": "samsung-pl70-qara-qutusuz", "brand": "Samsung", "name": "Samsung PL70", "color": "Qara", "cond": "single", "price": 219, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Mat qara, iri obyektiv halqası. Sadə və ciddi görünüş."}, {"id": "samsung-st45-qara-qutusuz", "brand": "Samsung", "name": "Samsung ST45", "color": "Qara", "cond": "single", "price": 219, "old": null, "pct": null, "section": "Pocket Icons", "page": 18, "isNew": false, "desc": "Nazik qara gövdə, parlaq üz. Cib üçün ideal."}, {"id": "nikon-s2700-gumusu-qutusuz", "brand": "Nikon", "name": "Nikon S2700", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Pocket Icons", "page": 19, "isNew": false, "desc": "İncə gümüşü Coolpix. Sadə, yüngül və zərif."}, {"id": "fujifilm-finepix-j500-qara-qutusuz", "brand": "Fujifilm", "name": "Fujifilm FinePix J500", "color": "Qara", "cond": "single", "price": 159, "old": null, "pct": null, "section": "Pocket Icons", "page": 19, "isNew": false, "desc": "Sadə və yüngül. Fujifilm rəngləri cibində."}, {"id": "nikon-s220-gumusu-qutusuz", "brand": "Nikon", "name": "Nikon S220", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Pocket Icons", "page": 19, "isNew": false, "desc": "Nazik gümüşü gövdə, sakit xətlər. Minimal Nikon klassikası."}, {"id": "panasonic-dmc-fs32-qara-qutusuz", "brand": "Panasonic", "name": "Panasonic DMC-FS32", "color": "Qara", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Pocket Icons", "page": 20, "isNew": false, "desc": "Leica imzalı obyektiv, sakit qara gövdə. Səliqəli Lumix."}, {"id": "panasonic-dmc-s2-qara-qutusuz", "brand": "Panasonic", "name": "Panasonic DMC-S2", "color": "Qara", "cond": "single", "price": 179, "old": null, "pct": null, "section": "Pocket Icons", "page": 20, "isNew": false, "desc": "Yumru künclər, qara gövdə. Sadə Lumix rahatlığı."}, {"id": "canon-powershot-a720-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A720", "color": "Gümüşü", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Y2K Favorites", "page": 22, "isNew": false, "desc": "Tutacaqlı klassik PowerShot. 2000-lərin ailə albomlarının kamerası."}, {"id": "canon-powershot-a460-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot A460", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Y2K Favorites", "page": 22, "isNew": false, "desc": "Retro gümüşü forma, sadə düymələr. Nostaljinin ən saf halı."}, {"id": "canon-ixus-75-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 75 IS", "color": "Gümüşü", "cond": "single", "price": 279, "old": null, "pct": null, "section": "Y2K Favorites", "page": 22, "isNew": false, "desc": "Dik silueti ilə seçilən kiçik IXUS. Erkən 2000-lərin dizaynı."}, {"id": "canon-powershot-sd-770-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot SD 770 IS", "color": "Gümüşü", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "İncə metal gövdə, klassik ELPH xətti. Kolleksiyaçıların sevimlisi."}, {"id": "sony-dsc-t100-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-T100", "color": "Gümüşü", "cond": "single", "price": 219, "old": 219, "pct": 9, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "Sürüşən ön panel, düz metal üz. T seriyasının zərif klassikası."}, {"id": "sony-dsc-w130-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W130", "color": "Gümüşü", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "Metal gövdə, optik vizir. Əsl 2000-lər Cyber-shot ruhu."}, {"id": "sony-dsc-w110-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W110", "color": "Qara", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Y2K Favorites", "page": 23, "isNew": false, "desc": "Qara metal, optik vizir. Köhnə məktəb digicam xarakteri."}, {"id": "sony-dsc-w50-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W50", "color": "Gümüşü", "cond": "single", "price": 199, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "Klassik gümüşü Cyber-shot forması. Birbaşa Y2K arxivindən."}, {"id": "sony-dsc-w30-gumusu-qutusuz", "brand": "Sony", "name": "Sony DSC-W30", "color": "Gümüşü", "cond": "single", "price": 189, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "Kiçik, gümüşü və tam nostalji. O illərin ilk digicam hissi."}, {"id": "hp-r707-gumusu-qutusuz", "brand": "HP", "name": "HP R707", "color": "Gümüşü", "cond": "single", "price": 129, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "HP Photosmart, nadir tapılan 2000-lər digicamı. Kolleksiya parçası."}, {"id": "hp-s-500-qara-qutusuz", "brand": "HP", "name": "HP S-500", "color": "Qara", "cond": "single", "price": 139, "old": null, "pct": null, "section": "Y2K Favorites", "page": 24, "isNew": false, "desc": "Nadir HP modeli, sadə idarə. Nostalji həvəskarları üçün."}, {"id": "canon-ixus-95-is-mavi-qutusuz", "brand": "Canon", "name": "Canon IXUS 95 IS", "color": "Mavi", "cond": "single", "price": 319, "old": null, "pct": null, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Boz-mavi ton, gümüşü detallar. Kolleksiya üçün xoş tapıntı."}, {"id": "canon-ixus-80-is-qehveyi-qutusuz", "brand": "Canon", "name": "Canon IXUS 80 IS", "color": "Qəhvəyi", "cond": "single", "price": 339, "old": null, "pct": null, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Şokolad qəhvəyi, parlaq metal çərçivə. Sakit, amma fərqli."}, {"id": "sony-dsc-t77-cehrayi-qutusuz", "brand": "Sony", "name": "Sony DSC-T77", "color": "Çəhrayı", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Pudra çəhrayı, incə panel. Y2K-nin ən zərif siması."}, {"id": "sony-dsc-w610-yasil-qutusuz", "brand": "Sony", "name": "Sony DSC-W610", "color": "Yaşıl", "cond": "single", "price": 279, "old": 279, "pct": 11, "section": "Style & Flash", "page": 26, "isNew": false, "desc": "Açıq yaşıl, oynaq və parlaq. Kolleksiyanın ən şən rəngi."}, {"id": "samsung-st70-narinci-qutusuz", "brand": "Samsung", "name": "Samsung ST70", "color": "Narıncı", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Style & Flash", "page": 27, "isNew": false, "desc": "Parlaq narıncı, dəyirmi forma. Kolleksiyanın ən cəsur tonu."}, {"id": "samsung-l110-cehrayi-qutusuz", "brand": "Samsung", "name": "Samsung L110", "color": "Çəhrayı", "cond": "single", "price": 209, "old": null, "pct": null, "section": "Style & Flash", "page": 27, "isNew": false, "desc": "Pastel çəhrayı, düz minimal üz. Tam 2000-lər estetikası."}, {"id": "samsung-st77-benovseyi-qutusuz", "brand": "Samsung", "name": "Samsung ST77", "color": "Bənövşəyi", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Style & Flash", "page": 27, "isNew": false, "desc": "Dərin bənövşəyi, gümüşü halqa. Diqqəti dərhal çəkir."}, {"id": "samsung-st66-mavi-qutusuz", "brand": "Samsung", "name": "Samsung ST66", "color": "Mavi", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "Səma mavisi, gümüşü detallar. Yay kadrları üçün yaradılıb."}, {"id": "nikon-s2700-qirmizi-qutusuz", "brand": "Nikon", "name": "Nikon S2700", "color": "Qırmızı", "cond": "single", "price": 219, "old": 219, "pct": 9, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "Parlaq qırmızı Coolpix. Fotoda da, əldə də göz oxşayır."}, {"id": "olympus-fe-5010-qirmizi-qutusuz", "brand": "Olympus", "name": "Olympus FE-5010", "color": "Qırmızı", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "İki tonlu ön panel, cəsur rəng. Zərif Olympus FE."}, {"id": "olympus-mu-9000-mju-9000-goy-qutusuz", "brand": "Olympus", "name": "Olympus μ-9000 (mju-9000)", "color": "Göy", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Style & Flash", "page": 28, "isNew": false, "desc": "Dərin göy, gümüşü çərçivə. Olympus μ seriyasının şık üzvü."}, {"id": "canon-powershot-sx130-is-bej-qutusuz", "brand": "Canon", "name": "Canon PowerShot SX130 IS", "color": "Bej", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Zoom Club", "page": 30, "isNew": false, "desc": "Bej ton, iri obyektiv, geniş zoom. Səyahətdə zövqlü yoldaş."}, {"id": "sony-dsc-w730-qara-qutusuz", "brand": "Sony", "name": "Sony DSC-W730", "color": "Qara", "cond": "single", "price": 279, "old": null, "pct": null, "section": "Zoom Club", "page": 30, "isNew": false, "desc": "Qara gövdə, gümüşü obyektiv halqası. Yığcam, amma zoomu uzun."}, {"id": "canon-powershot-sx110-is-gumusu-qutusuz", "brand": "Canon", "name": "Canon PowerShot SX110 IS", "color": "Gümüşü", "cond": "single", "price": 229, "old": null, "pct": null, "section": "Zoom Club", "page": 30, "isNew": false, "desc": "Kiçik superzoom forması, rahat tutacaq. Uzağı yaxına gətirir."}, {"id": "samsung-wb550-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB550", "color": "Qara", "cond": "single", "price": 249, "old": null, "pct": null, "section": "Zoom Club", "page": 31, "isNew": false, "desc": "Geniş bucaq, uzun zoom, möhkəm tutuş. Klassik travel-zoom."}, {"id": "samsung-wb700-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB700", "color": "Qara", "cond": "single", "price": 269, "old": null, "pct": null, "section": "Zoom Club", "page": 31, "isNew": false, "desc": "Schneider obyektiv, geniş zoom. Səyahət kameralarının ciddisi."}, {"id": "samsung-wb650-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB650", "color": "Qara", "cond": "single", "price": 259, "old": null, "pct": null, "section": "Zoom Club", "page": 31, "isNew": false, "desc": "Möhkəm qara gövdə, uzun zoom. Uzaq planlar üçün."}, {"id": "casio-ex-h10-gumusu-qutusuz", "brand": "Casio", "name": "Casio EX-H10", "color": "Gümüşü", "cond": "single", "price": 219, "old": null, "pct": null, "section": "Zoom Club", "page": 32, "isNew": false, "desc": "Exilim ruhu, uzun zoom, qalın tutuş. Səyahət üçün seçilmiş."}, {"id": "samsung-wb350f-qara-gumusu-qutusuz", "brand": "Samsung", "name": "Samsung WB350F", "color": "Qara Gümüşü", "cond": "single", "price": 319, "old": 319, "pct": 9, "section": "Zoom Club", "page": 32, "isNew": false, "desc": "Dəri fakturası, gümüşü çərçivə. Uzun zoom, retro görünüş."}, {"id": "samsung-wb30f-qara-qutusuz", "brand": "Samsung", "name": "Samsung WB30F", "color": "Qara", "cond": "single", "price": 239, "old": null, "pct": null, "section": "Zoom Club", "page": 32, "isNew": false, "desc": "Yığcam gövdə, uzun zoom. Səyahətə hazır."}, {"id": "nikon-a900-qara-qutusuz", "brand": "Nikon", "name": "Nikon A900", "color": "Qara", "cond": "single", "price": 899, "old": null, "pct": null, "section": "New Arrivals", "page": 34, "isNew": true, "desc": "35x optik zoom, 4K video. Kolleksiyanın ən güclü səyahət kamerası."}, {"id": "canon-ixus-90-gumusu-qutusuz", "brand": "Canon", "name": "Canon IXUS 90", "color": "Gümüşü", "cond": "single", "price": 299, "old": 299, "pct": 7, "section": "New Arrivals", "page": 34, "isNew": true, "desc": "Zərif gümüşü gövdə, klassik IXUS xətləri."}, {"id": "canon-powershot-sx200-is-qehveyi-qutusuz", "brand": "Canon", "name": "Canon PowerShot SX200 IS", "color": "Qəhvəyi", "cond": "single", "price": 319, "old": 319, "pct": 9, "section": "New Arrivals", "page": 34, "isNew": true, "desc": "Şokolad qəhvəyi gövdə, 12x optik zoom."}, {"id": "sony-dsc-w610-benovseyi-qutusuz", "brand": "Sony", "name": "Sony DSC-W610", "color": "Bənövşəyi", "cond": "single", "price": 279, "old": 279, "pct": 11, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "Bənövşəyi Cyber-shot, zərif və fərqli."}, {"id": "samsung-es73-qirmizi-qutusuz", "brand": "Samsung", "name": "Samsung ES73", "color": "Qırmızı", "cond": "single", "price": 219, "old": 219, "pct": 9, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "Parlaq qırmızı gövdə, sadə idarə."}, {"id": "sony-wx220-qara-qutusuz", "brand": "Sony", "name": "Sony WX220", "color": "Qara", "cond": "single", "price": 409, "old": 409, "pct": 7, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "10x optik zoom G-lens. Müasir görünüş."}, {"id": "samsung-es90-qara-qutulu", "brand": "Samsung", "name": "Samsung ES90", "color": "Qara", "cond": "boxed", "price": 209, "old": null, "pct": null, "section": "New Arrivals", "page": 35, "isNew": true, "desc": "Tam dəstlə, qutusunda. Etibarlı gündəlik."}, {"id": "canon-ixus-620-is-qara-qutusuz", "brand": "Canon", "name": "Canon IXUS 620 IS", "color": "Qara", "cond": "single", "price": 649, "old": null, "pct": null, "section": "New Arrivals", "page": 36, "isNew": true, "desc": "25x optik zoom, kompakt gövdədə güclü performans. Uzaq planların ustası."}];
 
 /* ================= 25% ENDİRİM — KÖHNƏ QİYMƏTLƏR DƏYİŞMƏZ =================
    Addım 1 — Hər məhsulun kataloqdakı ORİJİNAL qiyməti əsas götürülür və
@@ -3713,12 +3676,7 @@ var I18N={
   toastCopied:["Mesaj kopyalandı — Instagram-da göndərin.","Message copied — send it on Instagram.","Сообщение скопировано — отправьте в Instagram."],
   toastWrite:["Instagram-da bu modeli yazın:","Write this model on Instagram:","Напишите эту модель в Instagram:"],
   toastIg:["Bizə Instagram-da yazın: @","Write to us on Instagram: @","Напишите нам в Instagram: @"],
-  detailed:["ətraflı","details","подробнее"],
-  skipLink:["Məzmuna keç","Skip to content","К содержимому"],
-  imageFallback:["Şəkil mövcud deyil","Image unavailable","Изображение недоступно"],
-  routeMissing:["Bu kamera tapılmadı.","Camera not found.","Камера не найдена."],
-  metaDescription:["VINTECH — 2000-ci illərin rəqəmsal kameraları. Sony Cyber-shot, Canon IXUS və PowerShot, Samsung, Nikon, Fujifilm. Model, marka və qiymətə görə axtar, birbaşa sifariş et.","VINTECH — 2000s digital cameras. Sony Cyber-shot, Canon IXUS and PowerShot, Samsung, Nikon, Fujifilm. Search by model, brand and price, order directly.","VINTECH — цифровые камеры 2000-х. Sony Cyber-shot, Canon IXUS и PowerShot, Samsung, Nikon, Fujifilm. Ищите по модели, марке и цене, заказывайте напрямую."],
-  ogDescription:["2000-lərin rəqəmsal kamera kolleksiyası. Seçilmiş kameralar, AZN qiymətləri, birbaşa sifariş.","2000s digital camera collection. Selected cameras, AZN prices, direct ordering.","Коллекция цифровых камер 2000-х. Избранные камеры, цены в AZN, прямой заказ."]
+  detailed:["ətraflı","details","подробнее"]
  },
  colors:{
   "Qara":["Qara","Black","Чёрный"],
@@ -3904,26 +3862,6 @@ var I18N={
 var $ = function(s,r){return (r||document).querySelector(s)};
 var $$ = function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
 var esc = function(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})};
-function syncContactLinks(){
-  var digits=String(CONFIG.whatsapp||"").replace(/\D/g,"");
-  if(digits)$$("a[href^=\"https://wa.me/\"]").forEach(function(a){
-    a.href="https://wa.me/"+digits;
-    if(CONFIG.phoneDisplay&&/^WhatsApp:/i.test(a.getAttribute("aria-label")||""))a.setAttribute("aria-label","WhatsApp: "+CONFIG.phoneDisplay);
-  });
-  if(CONFIG.phoneDisplay)$$("[data-contact-number]").forEach(function(el){el.textContent=CONFIG.phoneDisplay});
-}
-function handleImageError(e){
-  var el=e.target;
-  if(!el||el.tagName!=="IMG"||el.dataset.fallbackHandled)return;
-  el.dataset.fallbackHandled="true";
-  var host=el.closest(".lcd");
-  if(!host)return;
-  el.classList.add("is-broken");host.classList.add("image-failed");
-  if(!host.querySelector(".img-fallback")){
-    var note=document.createElement("span");note.className="img-fallback";note.textContent=typeof ccT==="function"?ccT("imageFallback"):"Image unavailable";host.appendChild(note);
-  }
-}
-window.addEventListener("error",handleImageError,true);
 var MAP={"ə":"e","ı":"i","ö":"o","ü":"u","ş":"s","ç":"c","ğ":"g","μ":"mu","µ":"mu"};
 function norm(s){return String(s).toLowerCase().replace(/[əıöüşçğμµ]/g,function(c){return MAP[c]||c}).normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim()}
 var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -3996,13 +3934,7 @@ function featDescHTML(p){
 }
 function applyStaticI18n(){
   document.documentElement.lang=LANG;
-  var pageTitle=ccT("pageTitle");document.title=pageTitle;
-  var meta=$("#metaDescription");if(meta)meta.setAttribute("content",ccT("metaDescription"));
-  var ogTitle=$("#ogTitle");if(ogTitle)ogTitle.setAttribute("content",pageTitle);
-  var ogDesc=$("#ogDescription");if(ogDesc)ogDesc.setAttribute("content",ccT("ogDescription"));
-  var ogLocale=$("#ogLocale");if(ogLocale)ogLocale.setAttribute("content",LANG==="az"?"az_AZ":(LANG==="ru"?"ru_RU":"en_US"));
-  var canonical=$("#canonicalUrl"),ogUrl=$("#ogUrl");
-  if(/^https?:$/.test(location.protocol)){var cleanUrl=location.origin+location.pathname;if(canonical)canonical.href=cleanUrl;if(ogUrl)ogUrl.content=cleanUrl}
+  document.title=ccT("pageTitle");
   var nav=$("#nav");if(nav)nav.setAttribute("lang",LANG);
   var dock=$("#dock");if(dock)dock.setAttribute("lang",LANG);
   $$("[data-i18n]").forEach(function(el){
@@ -4011,9 +3943,9 @@ function applyStaticI18n(){
   });
   $$("[data-i18n-aria]").forEach(function(el){el.setAttribute("aria-label",ccT(el.getAttribute("data-i18n-aria")))});
   $$("[data-i18n-placeholder]").forEach(function(el){el.setAttribute("placeholder",ccT(el.getAttribute("data-i18n-placeholder")))});
-  $$(".img-fallback").forEach(function(el){el.textContent=ccT("imageFallback")});
 }
 
+var BRAND_RANK={Canon:0,Sony:1,Samsung:2,Nikon:3};
 PRODUCTS.forEach(function(p,i){
   p.ord=i;
   p.hay=norm([p.brand,p.name,p.color,p.cond==="boxed"?"qutulu boxed box":"qutusuz single",p.section].join(" "));
@@ -4028,7 +3960,7 @@ var brandCount={};PRODUCTS.forEach(function(p){brandCount[p.brand]=(brandCount[p
 var brandList=Object.keys(brandCount).sort(function(a,b){return brandCount[b]-brandCount[a]||a.localeCompare(b)});
 var prices=PRODUCTS.map(function(p){return p.price});
 var PMIN=Math.floor(Math.min.apply(null,prices)/10)*10, PMAX=Math.ceil(Math.max.apply(null,prices)/10)*10;
-var maxPct=sale.length?Math.max.apply(null,sale.map(function(p){return p.pct||0})):0;
+var maxPct=Math.max.apply(null,sale.map(function(p){return p.pct||0}));
 /* Ən yüksək qiymətli 3 kamera (avtomatik): hero və Featured-in ilk üçü */
 var PREMIUM=PRODUCTS.filter(function(p){
   return !p.sold&&img(p.id)&&(origP(p)>=349||(p.cond==="boxed"&&origP(p)>=279)||(p.isNew&&origP(p)>=289));
@@ -4049,11 +3981,20 @@ function pickFromPremium(n,off){
   return out;
 }
 var FEATURED=pickFromPremium(8,featOff);
-if(!FEATURED.length)FEATURED=PRODUCTS.slice(0,1);
 /* İlk səhifə (hero) üçün sabit 3 seçim: hər markanın ən premium modeli */
 var TOP3_IDS=["fujifilm-xt30-qara-qutulu","canon-ixus-620-is-qara-qutusuz","nikon-a900-qara-qutusuz"];
 var TOP3=TOP3_IDS.map(function(id){return byId[id]}).filter(Boolean);
 if(TOP3.length<3)TOP3=FEATURED.slice(0,3);
+
+function priceHTML(p){
+  var off=p.old!=null;
+  return '<div class="price'+(off?' is-sale':'')+'"><span class="sr">'+(off?'Endirimli qiymət ':'Qiymət ')+fmtP(p.price)+' AZN'+(off?', əvvəlki qiymət '+fmtP(p.old)+' AZN, endirim '+p.pct+' faiz':'')+'</span>'+
+    '<span class="price__now" aria-hidden="true"><b>'+fmtP(p.price)+'</b><i>AZN</i></span>'+
+    (off?'<span class="price__was" aria-hidden="true"><s>'+fmtP(p.old)+'</s><em>−'+p.pct+'%</em></span>':'')+'</div>';
+}
+function tagsHTML(p,withSale){
+  return '<div class="tags"><span class="tag">'+esc(p.color)+'</span><span class="tag">'+(p.cond==="boxed"?ICON_BOX:'')+condLabel(p)+'</span>'+(withSale&&p.old!=null?'<span class="tag tag--sale">25% ENDİRİM</span>':'')+'</div>';
+}
 
 /* ================= Sifariş ================= */
 function orderMessage(p){
@@ -4112,10 +4053,9 @@ function order(p){
 /* ================= FEATURED (playback) ================= */
 var fi=0;
 function showFeatured(i,anim){
-  if(!FEATURED.length)return;
   fi=(i+FEATURED.length)%FEATURED.length;
   var p=FEATURED[fi];
-  var im=$("#pbImg");im.src=img(p.id);im.alt=p.name+" — "+ccColor(p.color);
+  var im=$("#pbImg");im.src=img(p.id);im.alt=p.name+" — "+p.color;
   $("#pbFile").textContent=p.name;
   $("#pbIdx").textContent=pad(fi+1,2);$("#pbTot").textContent=pad(FEATURED.length,2);
   $("#pbCond").textContent=ccCond(p)+" · "+ccSection(p.section);
@@ -4293,9 +4233,9 @@ function renderSale(){
     '<p class="poster__k">'+ccT("posterSwipe")+'</p></div>';
   ul.appendChild(poster);
   list.forEach(function(p){
-    var c=cardEl(p);
+    var li=document.createElement("li");var c=cardEl(p);
     c.querySelector(".unit__info").insertAdjacentHTML("beforeend",'<p class="save">'+ccT("save")+': '+fmtP(p.old-p.price)+' AZN</p>');
-    ul.appendChild(c);
+    li.appendChild(c);ul.appendChild(li);
   });
   if(railProg)railProg();
 }
@@ -4372,32 +4312,26 @@ function detailHTML(p){
    '<dl class="dl"><dt>'+ccT("brand")+'</dt><dd>'+esc(p.brand)+'</dd><dt>'+ccT("model")+'</dt><dd>'+esc(p.name)+'</dd><dt>'+ccT("color")+'</dt><dd>'+esc(ccColor(p.color))+'</dd><dt>'+ccT("cond")+'</dt><dd>'+(p.cond==="boxed"?ccT("boxedFull"):ccT("single"))+'</dd><dt>'+ccT("collection")+'</dt><dd>'+esc(ccSection(p.section))+'</dd></dl>'+
    (vars.length?'<div class="vars"><h3>'+ccT("variants")+'</h3><div>'+vars.map(function(v){return '<a href="#cam-'+v.id+'" data-var="'+v.id+'">'+esc(ccColor(v.color))+', '+ccCond(v).toLowerCase()+' · '+fmtP(v.price)+' AZN</a>'}).join("")+'</div></div>':'')+
    '<div class="sheet__cta"><button class="btn btn--primary" type="button" data-order-d="'+p.id+'"'+(p.sold?' disabled':'')+'>'+ICON_CHAT+(p.sold?ccT("sold"):'Order')+'</button>'+
-   '<small>'+(CONFIG.whatsapp?ccT("ctaWa"):ccT("ctaIg"))+' '+ccT("call")+': <a href="https://wa.me/994517069031" data-wa-link target="_blank" rel="noopener"><span data-contact-number>+994 51 706 90 31</span></a></small></div></div></div></div>';
+   '<small>'+(CONFIG.whatsapp?ccT("ctaWa"):ccT("ctaIg"))+' '+ccT("call")+': <a href="https://wa.me/994517069031" target="_blank" rel="noopener">+994 51 706 90 31</a></small></div></div></div></div>';
 }
 function showDetail(id){
   var p=byId[id];if(!p)return false;
   if(!openId)lastFocus=document.activeElement;
   openId=id;
-  sheet.innerHTML=detailHTML(p);sheet.setAttribute("lang",LANG);syncContactLinks();
+  sheet.innerHTML=detailHTML(p);sheet.setAttribute("lang",LANG);
   ov.classList.add("on");ov.setAttribute("aria-hidden","false");
   document.documentElement.style.overflow="hidden";
   sheet.scrollTop=0;var sb=$(".sheet__body",sheet);if(sb)sb.scrollTop=0;
   sheet.focus({preventScroll:true});
-  /* Hash navigation can restore focus to the triggering link after this handler; reclaim it on the next task. */
-  setTimeout(function(){if(openId===id&&ov.classList.contains("on"))sheet.focus({preventScroll:true})},0);
   return true;
 }
 function hideDetail(){
   ov.classList.remove("on");ov.setAttribute("aria-hidden","true");
   document.documentElement.style.overflow="";
-  openId=null;pushed=false;
+  openId=null;
   if(lastFocus&&lastFocus.focus)try{lastFocus.focus({preventScroll:true})}catch(e){}
 }
-document.addEventListener("focusin",function(e){
-  if(openId&&ov.classList.contains("on")&&!sheet.contains(e.target))sheet.focus({preventScroll:true});
-});
 function openDetail(id,push){
-  if(!byId[id]){toast(ccT("routeMissing"));return false}
   if(push&&location.hash!=="#cam-"+id){pushed=true;location.hash="cam-"+id;return}
   showDetail(id);
 }
@@ -4409,9 +4343,7 @@ function closeDetail(){
 }
 window.addEventListener("hashchange",function(){
   var m=/^#cam-(.+)$/.exec(location.hash);
-  if(m&&byId[m[1]]){showDetail(m[1]);return}
-  if(m){if(openId)hideDetail();history.replaceState(null,"",location.pathname+location.search);toast(ccT("routeMissing"));return}
-  if(openId)hideDetail();
+  if(m&&byId[m[1]])showDetail(m[1]);else if(openId)hideDetail();
 });
 ov.addEventListener("click",function(e){
   if(e.target===ov||e.target.closest("[data-close]")){closeDetail();return}
@@ -4424,16 +4356,8 @@ document.addEventListener("keydown",function(e){
   if(e.key==="Tab"&&openId){
     var f=$$("button:not([disabled]),a[href],[tabindex]:not([tabindex='-1'])",sheet);if(!f.length)return;
     var a=f[0],z=f[f.length-1];
-    if(!sheet.contains(document.activeElement)){a.focus();e.preventDefault();return}
     if(e.shiftKey&&(document.activeElement===a||document.activeElement===sheet)){z.focus();e.preventDefault()}
     else if(!e.shiftKey&&document.activeElement===z){a.focus();e.preventDefault()}
-    return;
-  }
-  if(e.key==="Tab"&&fpanel&&fpanel.classList.contains("on")){
-    var pf=$$("button:not([disabled]),a[href],input:not([disabled]),select:not([disabled]),[tabindex]:not([tabindex='-1'])",fpanel);if(!pf.length)return;
-    var pa=pf[0],pz=pf[pf.length-1];
-    if(e.shiftKey&&(document.activeElement===pa||document.activeElement===fpanel)){pz.focus();e.preventDefault()}
-    else if(!e.shiftKey&&document.activeElement===pz){pa.focus();e.preventDefault()}
   }
 });
 
@@ -4475,7 +4399,7 @@ function applyPageLang(){
   renderDB();
   if(openId&&byId[openId]){
     var sb=$(".sheet__body",sheet),st=sheet.scrollTop,bt=sb?sb.scrollTop:0;
-    sheet.innerHTML=detailHTML(byId[openId]);sheet.setAttribute("lang",LANG);syncContactLinks();
+    sheet.innerHTML=detailHTML(byId[openId]);sheet.setAttribute("lang",LANG);
     sheet.scrollTop=st;sb=$(".sheet__body",sheet);if(sb)sb.scrollTop=bt;
   }
 }
@@ -4502,7 +4426,6 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!langMenu.h
 langDD.addEventListener("focusout",function(e){if(!langMenu.hidden&&e.relatedTarget&&!langDD.contains(e.relatedTarget))langMenuOpen(false)});
 syncLang();
 applyStaticI18n();
-syncContactLinks();
 
 /* ================= Naviqasiya ================= */
 function goto(id){var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"})}
@@ -4520,9 +4443,7 @@ $$("[data-jump-search]").forEach(function(b){b.addEventListener("click",function
 })();
 
 apply();
-var m0=/^#cam-(.+)$/.exec(location.hash);
-if(m0&&byId[m0[1]])showDetail(m0[1]);
-else if(m0){history.replaceState(null,"",location.pathname+location.search);toast(ccT("routeMissing"))}
+var m0=/^#cam-(.+)$/.exec(location.hash);if(m0&&byId[m0[1]])showDetail(m0[1]);
 })();
 </script>
 </body>
